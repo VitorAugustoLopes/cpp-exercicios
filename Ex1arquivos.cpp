@@ -35,7 +35,6 @@ int main() {
             break;
         }
     }
-    cout << "Arquivo gravado!" << endl;
-
+    cout << "Arquivo gravado com sucesso!" << endl;
     return 0;
 }

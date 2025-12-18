@@ -8,7 +8,6 @@ int main() {
     int idade, numEstudantes = 0;
     int idadeMaisVelho = -1;
     char nomeMaisVelho[100];
-    // Identidade, nome e idade devem ser colocados individualmente em cada linha
     arquivo = fopen("estudantes.txt", "r");
 
     if (arquivo == NULL) {
@@ -30,6 +29,5 @@ int main() {
     cout << "numero de estudantes lidos: " << numEstudantes << endl;
     cout << "estudante mais velho: " << nomeMaisVelho << idadeMaisVelho << " anos" << endl;
     fclose(arquivo);
-
     return 0;
 }
